@@ -25,13 +25,13 @@ const NavBar = () => {
     setActiveLink(value);
   };
   return (
-    <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+    <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
           <img src="logo.svg" alt="logo" />
         </Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav" className="container">
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
             <Nav.Link
               href="#home"
               className={
@@ -80,7 +80,11 @@ const NavBar = () => {
               >
                 <img src="github.svg" alt="github" />
               </a>
-              <a href="https://walink.co/d770d8" target="_blank" rel="noreferrer">
+              <a
+                href="https://walink.co/d770d8"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src="whatsapp.svg" alt="github" />
               </a>
             </div>

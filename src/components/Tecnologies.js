@@ -8,34 +8,15 @@ const Tecnologies = () => {
         <div className="cv-3" />
         <div className="cv-1">
           <div>
-            <p
-              style={{
-                wordWrap: "break-word",
-                fontSize: "1.8rem",
-                fontWeight: "700",
-                width: "400px",
-              }}
-            >
+            <p className="text-cv">
               Puedes descargar mi curriculum vitae desde este botón para saber
               un poco mas sobre mi.
             </p>
           </div>
-          <div
-            style={{
-              width: "400px",
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
+          <div className="cv-div">
             <div className="arrows" />
           </div>
-          <div
-            style={{
-              width: "400px",
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
+          <div className="cv-div">
             <button className="button-cv">
               <a
                 href="/downloads/joaquin-rodriguez-cv.pdf"
@@ -116,7 +97,7 @@ const Tecnologies = () => {
           />
           <div className="shadow-tecnologies" />
         </div>
-        <div className="tecnologie-container">
+        <div className="tecnologie-container figma">
           <img
             src="tecnologias/figma.svg"
             alt="figma icono"

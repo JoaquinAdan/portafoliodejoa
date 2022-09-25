@@ -4,9 +4,9 @@ import { AiOutlineMessage } from "react-icons/ai";
 const FormularioCompletar = (props) => {
   return (
     <>
-      <div style={{ zIndex: "3", height: "603px" }}>
+      <div className="form-to-complete">
         <form className="form-mail" onSubmit={props.sendEmail}>
-          <h1 className="title-form">Pongamosnos en contacto</h1>
+          <h1 className="title-form">Pongámonos en contacto</h1>
           <div className="border-input">
             <label className="label-input" htmlFor="nombre">
               <AiOutlineUser style={{ color: "#ffff9e" }} />

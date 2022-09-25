@@ -4,11 +4,10 @@ const Footer = () => {
   return (
     <div
       className="footer container-margin"
-      style={{ textAlign: "center", fontSize: "3rem" }}
     >
         <Gear/>
       <div className="left-footer-container">
-        <span className="navbar-text" style={{ marginLeft: "30px" }}>
+        <span className="navbar-text navbar-footer">
           <div className="social-icon">
             <a
               href="https://www.linkedin.com/in/joaquin-rodriguez-dev/"
@@ -29,7 +28,7 @@ const Footer = () => {
             </a>
           </div>
         </span>
-        <p style={{ fontSize: "1.8rem", marginLeft: "44px" }}>
+        <p className="text-footer">
           Copyright 2022. Todos los derechos reservados
         </p>
       </div>
@@ -40,6 +39,7 @@ const Footer = () => {
           style={{
             height: "75px",
           }}
+          className="width-logo"
         />
       </div>
     </div>

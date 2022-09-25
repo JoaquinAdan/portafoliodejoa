@@ -15,7 +15,7 @@ const Formulario = () => {
         "service_x4vtzij",
         "template_b0la07i",
         e.target,
-        "hpT1nuLfi19II3Jlna"
+        "hpT1nuLfi19II3Jln"
       )
       .then(
         (response) => {
@@ -37,7 +37,6 @@ const Formulario = () => {
         <div>
           <img src="world.png" alt="world map" className="world"/>
         </div>
-      
         {buttonText === "Enviado" ? (
           <FormularioEnviado />
         ) : buttonText === "Error" ? (

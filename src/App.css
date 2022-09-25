@@ -209,6 +209,12 @@ button:hover::before {
   font-size: 300%;
 }
 /******************* TECNOLOGIES  *******************/
+
+.cv-div {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
 .button-cv {
   padding: 18px 0;
   border: 2px solid #ffff9e;
@@ -434,6 +440,7 @@ button:hover::before {
   border: 2px solid #1e1e1e;
   transition: 0.3s ease-in-out;
   margin-top: 25px;
+  margin-left: 0;
 }
 .button-project:hover {
   background-color: #1e1e1e;
@@ -465,6 +472,9 @@ button:hover::before {
   background: #1e1e1e;
   align-items: center;
   z-index: 2;
+}
+.form-to-complete {
+  height: 603px
 }
 .shadow-form {
   position: absolute;
@@ -585,13 +595,12 @@ textarea::placeholder {
   background: #1e1e1e;
   box-shadow: #4d4d4d 0px 0px 25px;
   color: #ffff9e;
-
 }
 .container-no-enviado {
   padding: 66px 0 40px 0;
 }
 .img-error {
-  width: 660px;
+  height: 392px;
   margin-bottom: 26px;
 }
 .enviado {
@@ -645,6 +654,8 @@ textarea::placeholder {
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
+  text-align: center;
+  font-size: 3rem;
 }
 .left-footer-container {
   display: flex;
@@ -652,18 +663,15 @@ textarea::placeholder {
   align-items: flex-start;
   gap: 10px;
 }
+.navbar-footer {
+  margin-left: 30px
+}
+.text-footer {
+  font-size: 1.8rem;
+  margin-left: 44px;
+}
 .logo-footer {
   justify-self: end;
-}
-.brillo-dorado-footer {
-  position: absolute;
-  left: 1490px;
-  top: 400px;
-}
-.brillo-plateado-footer {
-  position: absolute;
-  left: -821px;
-  top: 400px;
 }
 .engranaje-container {
   position: absolute;
@@ -719,38 +727,6 @@ textarea::placeholder {
     height: 278px;
     width: 400px;
   }
-}
-.updates-border-close {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0 auto 100px auto;
-  background: linear-gradient(90.21deg, #919191 -5.91%, #ffff9e 111.58%);
-  width: 400px;
-  z-index: 5;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 5px;
-  box-shadow: #4d4d4d 0px 0px 12px;
-  animation: closeborder 0.3s linear;
-}
-@keyframes closeborder {
-  0% {
-    height: 278px;
-    width: 400px;
-  }
-  50% {
-    height: 139px;
-    width: 130px;
-  }
-  100% {
-    height: 20px;
-    width: 20px;
-  }
-  
 }
 .updates-container-open {
   background: #121212;

@@ -12,10 +12,10 @@ const Home = () => {
         />
       </div>
       <div className="info">
-        <div>
+        <div className="info-text">
           <p className="home-text border"> ¡Hola! </p>
           <h1 className="home-text-title">Soy Joaquin Rodriguez,</h1>
-          <p className="home-text">Programador Front-end y diseñador  </p>
+          <p className="home-text">Programador Front-end e ilustrador  </p>
           <p className="home-text">nacido en Buenos Aires, Argentina.</p>
         </div>
         <img className="ilustration" src="yo.png" alt="ilustración" />
