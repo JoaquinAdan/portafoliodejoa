@@ -1,7 +1,8 @@
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./App.css";
-import './mediaquerys.css'
+import './mediaquerysmobile.css'
+import './mediaqueryslaptop.css'
 import Project from "./components/Project";
 import NavBar from "./components/Nav";
 import Home from "./components/Home"
