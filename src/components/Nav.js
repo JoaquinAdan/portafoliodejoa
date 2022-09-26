@@ -50,7 +50,7 @@ const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("tecnologias")}
             >
-              Tecnologias
+              Tecnologías
             </Nav.Link>
             <Nav.Link
               href="#proyectos"
@@ -91,7 +91,7 @@ const NavBar = () => {
 
             <button className=" button-nav">
               <a href="#contactame" className="text-button-nav">
-                Contactame
+                Contáctame
               </a>
             </button>
           </span>

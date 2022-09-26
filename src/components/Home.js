@@ -14,7 +14,7 @@ const Home = () => {
       <div className="info">
         <div className="info-text">
           <p className="home-text border"> ¡Hola! </p>
-          <h1 className="home-text-title">Soy Joaquin Rodriguez,</h1>
+          <h1 className="home-text-title">Soy Joaquín Rodríguez,</h1>
           <p className="home-text">Programador Front-end e ilustrador  </p>
           <p className="home-text">nacido en Buenos Aires, Argentina.</p>
         </div>

@@ -9,11 +9,11 @@ const Update = () => {
           style={{ fontWeight: "700", fontSize: "2.4rem", color: "#fff" }}
         >
           {" "}
-          Proximos updates:{" "}
+          Próximos updates:{" "}
         </span>
-        <span className="update-open"> Actualizaciónes en proyectos </span>
-        <span className="update-open"> mejora en responsive </span>
-        <span className="update-open"> más y mejores animaciones </span>
+        <span className="update-open"> Actualizaciones en proyectos </span>
+        <span className="update-open"> Mejora en responsive </span>
+        <span className="update-open"> Más y mejores animaciones </span>
       </div>
     </div>
   );

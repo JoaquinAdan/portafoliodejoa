@@ -9,13 +9,13 @@ const Project = () => {
   const projects = [
     {
       title: "Pokedex",
-      description: "Utilizando la api de PokeAPI",
+      description: "Utilizando la API de PokeAPI",
       imgUrl: pokedex,
       url: "https://pokedexfavoritos-ndnw6412j-joaquinadan.vercel.app/",
     },
     {
-      title: "Buscador de imagenes",
-      description: "Utilizando la api de unsplash",
+      title: "Buscador de imágenes",
+      description: "Utilizando la API de unsplash",
       imgUrl: buscadorImagen,
       url: "https://buscador-imagenes-one.vercel.app/",
     },
@@ -38,8 +38,8 @@ const Project = () => {
           <h1 className="project-title">Proyectos</h1>
           <h3 className="project-text">
             Estos son algunos de los proyectos que he realizado con react,
-            tecnologia a la cual le estoy dedicando mas esfuerzo para poder
-            desarrollar cada vez proyectos mas interesantes, conplejos
+            tecnología a la cual le estoy dedicando esfuerzo para poder
+            desarrollar cada vez proyectos más interesantes, complejos y
             atractivos.
           </h3>
         </div>

@@ -333,11 +333,9 @@
     }
   }
   .update-open {
-    border-bottom: 1px solid #91919141;
     padding: 20px;
-    color: rgba(255, 255, 255, 0.5);
     cursor: auto;
-    font-size: 2rem;
+    font-size: 1.7rem;
     animation: opentext 0.3s linear;
     width: 350px;
   }

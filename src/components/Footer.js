@@ -1,11 +1,10 @@
 import Gear from "./Gear";
+import Nav from "react-bootstrap/Nav";
 
 const Footer = () => {
   return (
-    <div
-      className="footer container-margin"
-    >
-        <Gear/>
+    <div className="footer container-margin">
+      <Gear />
       <div className="left-footer-container">
         <span className="navbar-text navbar-footer">
           <div className="social-icon">
@@ -32,7 +31,7 @@ const Footer = () => {
           Copyright 2022. Todos los derechos reservados
         </p>
       </div>
-      <div className="logo-footer">
+      <Nav.Link className="logo-footer" href="#home">
         <img
           src="logo.svg"
           alt="logo footer"
@@ -41,7 +40,7 @@ const Footer = () => {
           }}
           className="width-logo"
         />
-      </div>
+      </Nav.Link>
     </div>
   );
 };

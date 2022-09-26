@@ -10,7 +10,7 @@ const Tecnologies = () => {
           <div>
             <p className="text-cv">
               Puedes descargar mi curriculum vitae desde este botón para saber
-              un poco mas sobre mi.
+              un poco más sobre mi.
             </p>
           </div>
           <div className="cv-div">
@@ -30,7 +30,7 @@ const Tecnologies = () => {
         </div>
       </div>
       <h1 className="title-tecnologies" id="tecnologias">
-        Tecnologías que uso:
+        Tecnologías y herramientas:
       </h1>
       <div className="tecnologies-container">
         <div className="tecnologie-container">
