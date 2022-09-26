@@ -1,3 +1,35 @@
+@media (max-width: 1599px) {
+  /******************* TECNOLOGIES  *******************/
+  .cv-1 {
+    width: 1460px;
+    height: 271px;
+  }
+  .cv-2 {
+    width: 1480px;
+    height: 245px;
+  }
+  .cv-3 {
+    width: 1500px;
+    height: 219px;
+  }
+  .tecnologie {
+    width: 120px;
+    height: 107px;
+    margin-bottom: 22px;
+  }
+  /******************* PROJECT  *******************/
+  .app {
+    height: 280px;
+    width: 425px;
+    /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; */
+  }
+  .container-margin {
+    padding: 0px 0px 20px 0;
+  }
+}
+
 @media (max-width: 480px) {
   /******************* NAV ********************/
   .container {
@@ -264,7 +296,7 @@
   .logo-footer {
     justify-self: end;
   }
-  .width-logo{
+  .width-logo {
     width: 120px;
   }
   .engranaje-container {

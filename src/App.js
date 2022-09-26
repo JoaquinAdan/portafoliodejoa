@@ -1,12 +1,11 @@
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./App.css";
-import './mediaquerysmobile.css'
-import './mediaqueryslaptop.css'
+import "./mediaquerys.css";
 import Project from "./components/Project";
 import NavBar from "./components/Nav";
-import Home from "./components/Home"
-import Tecnologies from "./components/Tecnologies"
+import Home from "./components/Home";
+import Tecnologies from "./components/Tecnologies";
 
 function App() {
   return (
