@@ -3,8 +3,6 @@
   .cv-1 {
     width: 1460px;
     height: 271px;
-    display: flex;
-    flex-direction: column;
   }
   .cv-2 {
     width: 1480px;
